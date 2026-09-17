@@ -1,0 +1,13 @@
+a {
+    background-color: #00bcd4; /* เปลี่ยนสีพื้นหลัง */
+    border: 1px solid #0097a7;
+    border-radius: 8px; /* ปรับความโค้ง */
+    margin: 5px;
+    padding: 10px 15px; /* เพิ่มพื้นที่ให้กดง่ายขึ้น */
+    color: white; /* เปลี่ยนสีตัวอักษรเป็นสีขาว */
+    text-decoration: none; /* เอาเส้นใต้คำออก */
+    display: inline-block; /* ทำให้ตั้งค่าขนาดได้ดีขึ้น */
+}
+a:hover {
+    background-color: #0097a7; /* เปลี่ยนสีเมื่อเอาเมาส์ไปชี้ */
+}

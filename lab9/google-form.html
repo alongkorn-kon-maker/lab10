@@ -1,0 +1,87 @@
+    <div id="header-placeholder"></div>    
+    <script>
+      fetch('header.html')
+        .then(response => response.text())
+        .then(data => { document.getElementById('header-placeholder').innerHTML = data; });
+    </script>
+
+
+        
+
+        <div class="divname">
+            <h3>นักศึกษา กรอกข้อมูลส่วนตัว</h3>
+        <form action="confirmed.html" method="post">
+            <label for="username">ชื่อนักศึกษา:</label><br>
+            <input type="text" name="username" required><br>
+            <label for="password">หลักสูตร:</label><br>
+            <input type="text" name="password" required><br>
+            <label for="yearold">ปีที่เข้าเรียน:</label><br>
+            <input type="text" name="yearold" required>
+        </div>
+            
+            <br><br>
+            
+            <div class="divmedial">
+                <h3>นักศึกษา มีอุปกรณ์ใดที่ใช้ในการเรียน (เลือกได้หลายอย่าง)</h3>
+            <input type="checkbox" name="medial" value="Notebook">
+            <label for="medial">Notebook</label><br>
+
+            <input type="checkbox" name="media2" value="IPAD">
+            <label for="media2"> IPAD</label><br>
+
+            <input type="checkbox" name="media3" value="Computer">
+            <label for="media3"> Personel Computer</label><br>
+
+            <input type="checkbox" name="media4" value="Phone">
+            <label for="media4"> Mobile Phone</label>
+            </div>
+
+            <br><br>
+
+            <div class="fav_lan">
+                <h3>นักศึกษา มีความถนัดภาษาใดมากที่สุด</h3>
+            <input type="radio" name="fav_language" value="HTML">
+            <label for="html">HTML</label>
+            <input type="radio" name="fav_language" value="CSS">
+            <label for="css">CSS</label>
+            <input type="radio" name="fav_language" value="JavaScript">
+            <label for="javascript">JavaScript</label>
+            <input type="radio" name="fav_language" value="Python">
+            <label for="Python">Python</label>
+
+            </div>
+            <br><br><br>
+
+            <div class="divbrowser">
+                <h3>นักศึกษา มีความนิยมใช้ <b>Browser</b> ใดมากที่สุด</h3>
+            <label for="browsers">กรุณาคลิกเพื่อเลือก เพียงอย่างเดียว:</label>
+                <select name="browsers" >
+                    <option value="Edge">Microsoft Edge</option>
+                    <option value="Firefox">Firefox</option>
+                    <option value="Chrome">Chrome</option>
+                    <option value="Opera">Opera</option>
+                    <option value="Safari">Safari</option>
+                </select>
+            </div>
+
+                <br><br><br>
+                <button class="btn btn-primary d-inline-flex align-items-center" type="submit">
+                Submit
+                <svg class="bi ms-1" width="20" height="20" aria-hidden="true"><use xlink:href="#arrow-right-short"></use></svg> </button>
+                <button class="btn btn-outline-secondary d-inline-flex align-items-center" type="reset">
+                Reset
+                <svg class="bi ms-1" width="20" height="20" aria-hidden="true"><use xlink:href="#arrow-right-short"></use></svg> </button>
+
+            </form>
+    
+
+
+
+
+    
+  <div id="footer-placeholder"></div>    
+    <script>
+      fetch('footer.html')
+        .then(response => response.text())
+        .then(data => { document.getElementById('footer-placeholder').innerHTML = data; });
+    </script>  

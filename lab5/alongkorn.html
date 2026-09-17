@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>โรงเรียนสวนศรีวิทยา</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: "Prompt", "Tahoma", sans-serif;
+            background: #f5f7e8;
+            color: #333;
+            line-height: 1.8;
+        }
+
+        .contianer {
+            width: min(1100px, 92%);
+            margin: 30px auto;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #f5c400, #d9a900);
+            color: #174d2b;
+            text-align: center;
+            padding: 35px 20px;
+            border-radius: 20px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+        }
+
+        .header h1 {
+            font-size: clamp(28px, 5vw, 46px);
+            font-weight: 700;
+        }
+
+        .topic {
+            margin-top: 28px;
+            margin-bottom: 14px;
+        }
+
+        .topic h2 {
+            display: inline-block;
+            background: #174d2b;
+            color: #ffd21c;
+            padding: 8px 22px;
+            border-radius: 10px;
+            font-size: clamp(20px, 3vw, 28px);
+            border-left: 6px solid #f5c400;
+        }
+
+        .artical {
+            background: #ffffff;
+            padding: 25px;
+            border-radius: 16px;
+            border: 1px solid #e3e7ce;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.07);
+            font-size: 17px;
+        }
+
+        .artical p {
+            margin-top: 10px;
+        }
+
+        .artical a {
+            display: block;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .artical img {
+            display: block;
+            width: 100%;
+            max-width: 500px;
+            height: auto;
+            margin: auto;
+            border-radius: 12px;
+            border: 4px solid #f5c400;
+        }
+
+        hr {
+            border: 0;
+            border-top: 3px solid #d9a900;
+            margin: 35px 0 20px;
+        }
+
+        .footer {
+            background: #174d2b;
+            color: #fff;
+            text-align: center;
+            padding: 25px 20px;
+            border-radius: 16px;
+            font-size: 15px;
+            line-height: 2;
+        }
+
+        @media (max-width: 600px) {
+            .contianer {
+                width: 94%;
+                margin: 15px auto;
+            }
+
+            .header {
+                padding: 25px 15px;
+                border-radius: 15px;
+            }
+
+            .topic {
+                margin-top: 22px;
+            }
+
+            .topic h2 {
+                padding: 6px 15px;
+                border-left-width: 4px;
+            }
+
+            .artical {
+                padding: 18px;
+                font-size: 15px;
+                border-radius: 12px;
+            }
+
+            .footer {
+                padding: 20px 15px;
+                font-size: 13px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="contianer">
+
+        <div class="header">
+            <h1>โรงเรียนสวนศรีวิทยา</h1>
+        </div>
+
+        <div class="topic">
+            <h2>โรงเรียนของเรา</h2>
+        </div>
+
+        <div class="artical">
+            โรงเรียนสวนศรีวิทยา เป็นโรงเรียนมัธยมศึกษาขนาดใหญ่พิเศษ
+            ตั้งอยู่ที่เลขที่ 280 ถนนหลังสวน ตำบลหลังสวน อำเภอหลังสวน จังหวัดชุมพร
+            รหัสไปรษณีย์ 86110 ตามหลักฐานของทางราชการระบุว่าก่อตั้งเมื่อ พ.ศ. 2442
+
+            <a href="86100397_0_20130801-112107.jpg">
+                <img src="86100397_0_20130801-112107.jpg" alt="โรงเรียนสวนศรีวิทยา">
+            </a>
+        </div>
+
+        <div class="topic">
+            <h2>สาขาที่จบการศึกษา</h2>
+        </div>
+
+        <div class="artical">
+            สาขาที่จบการศึกษา
+
+            <p>
+                สาขา วิทยาศาสตร์ คณิตศาสตร์ คอมพิวเตอร์ มี 1 ห้อง จาก 12 ห้อง
+                โดยมีเนื้อหาเหมือนกับวิทยาศาสตร์ คณิตศาสตร์ทั่วไป
+                แต่จะเพิ่มวิชาคอมพิวเตอร์เข้ามาอีก เช่น การเขียนโปรแกรมพัฒนาเว็บไซต์
+                การทำหุ่นยนต์เดินตามเส้นที่เริ่มตั้งแต่การออกแบบตัวหุ่น
+                ไปจนถึงการเขียนโปรแกรมด้วยตัวเอง
+                รวมถึงการทำโครงงานที่มีวิชาคอมพิวเตอร์เข้ามาเกี่ยวข้อง
+            </p>
+
+            <a href="download (1).jpg">
+                <img src="download (1).jpg" alt="สาขาวิทยาศาสตร์ คณิตศาสตร์ คอมพิวเตอร์">
+            </a>
+        </div>
+
+        <div class="topic">
+            <h2>กิจกรรมหรือโครงงานที่เราภูมิใจ</h2>
+        </div>
+
+        <div class="artical">
+            กิจกรรมสภานักเรียน
+
+            <p>
+                เป็นกิจกรรมที่ภูมิใจที่สุดเพราะว่าเป็นกิจกรรมที่ต้องขึ้นมาเป็นผู้นำ
+                ให้กับเพื่อนๆ พี่ๆ น้องๆ ในโรงเรียน ได้ลองทำกิจกรรมต่างๆ
+                ที่ปกติไม่เคยคิดที่จะได้ทำ และได้ไปเป็นตัวแทนยังสถานที่ต่างๆ
+                เป็นหน้าเป็นตาให้กับโรงเรียน
+            </p>
+
+            <a href="download.jpg">
+                <img src="download.jpg" alt="กิจกรรมสภานักเรียน">
+            </a>
+        </div>
+
+        <div class="topic">
+            <h2>เป้าหมายในอีก 4 ปีข้างหน้า</h2>
+        </div>
+
+        <div class="artical">
+            เป้าหมายในอีก 4 ปีข้างหน้า
+
+            <ol>
+                <li>จบการศึกษา</li><li>หางานทำในสายงานที่ชอบ</li><li>มีเงินเดือนเยอะๆ</li><li>ส่งเงินให้พ่อแม่ตอนแก่</li><li>สร้างบ้าน</li><li>มีครอบครัว</li>\
+            </ol>
+                  
+                  
+            
+        </div>
+
+        <hr>
+
+        <div class="footer">
+            นายอลงกรณ์ คงดี 056950405235-2
+            คณะวิศวกรรมศาสตร์ สาขาวิศวกรรมคอมพิวเตอร์
+            มหาวิทยาลัยเทคโนโลยีราชมงคลพระนคร
+        </div>
+
+    </div>
+
+</body>
+</html>
+```

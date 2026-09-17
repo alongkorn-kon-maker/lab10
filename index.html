@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Computer Engineering</title>
+
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f7f6;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 1200px;
+            background: #ffffff;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+        }
+
+        .banner-wrapper {
+            width: 100%;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .banner-wrapper img {
+            width: 100%;
+            max-height: 220px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+
+        .marquee-box {
+            background: linear-gradient(135deg, #0052d4, #4364f7, #6fb1fc);
+            color: #ffffff;
+            padding: 12px;
+            font-size: 1.1rem;
+            font-weight: 600;
+            border-radius: 6px;
+            margin-bottom: 25px;
+            text-align: center;
+            box-shadow: 0 2px 8px rgba(67, 100, 247, 0.2);
+        }
+
+        .nav-menu {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            justify-content: center;
+            margin-bottom: 25px;
+        }
+
+        .nav-menu a {
+            display: inline-block;
+            background-color: #ffffff;
+            color: #4364f7;
+            border: 2px solid #4364f7;
+            border-radius: 30px;
+            padding: 10px 22px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 0.95rem;
+            transition: all 0.25s ease;
+        }
+
+        .nav-menu a:hover {
+            background-color: #4364f7;
+            color: #ffffff;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(67, 100, 247, 0.15);
+        }
+
+        iframe {
+            width: 100%;
+            height: 600px;
+            border: 1px solid #e1e8ed;
+            border-radius: 8px;
+            background-color: #ffffff;
+            box-shadow: inset 0 2px 4px rgba(0,0,0,0.02);
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <div class="banner-wrapper">
+        <img src="images (8).jpg" alt="CPE Banner">
+    </div>
+
+    <div class="marquee-box">
+        <marquee scrollamount="5">
+            สาขาวิศวกรรมคอมพิวเตอร์ คณะวิศวกรรมศาสตร์ มหาวิทยาลัยเทคโนโลยีราชมงคลพระนคร
+        </marquee>
+    </div>
+
+    <div class="nav-menu">
+        <a href="lab1/alongkorn.html" target="frame2">Home</a>
+        <a href="lab2/alongkorn.html" target="frame2">AboutMe</a>
+        <a href="lab3/gallery.html" target="frame2">Gallery</a>
+        <a href="lab4/PortFolio.html" target="frame2">PortFolio</a>
+        <a href="lab5/alongkorn.html" target="frame2">Myschools</a>
+        <a href="lab6/alongkorn.html" target="frame2">Myfriends</a>
+        <a href="lab7/class.html" target="frame2">Class2569</a>
+        <a href="lab8/garph.html" target="frame2">Garph</a>
+        <a href="lab9/google-form.html" target="frame2">google-form</a>
+    </div>
+
+    <iframe name="frame2" src="firstpage.html"></iframe>
+
+</div>
+
+</body>
+</html>
